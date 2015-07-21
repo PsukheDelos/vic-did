@@ -1,1 +1,4 @@
-2015-07-20 07:39:33,592 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7fdd1eb45dd0>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-07-21 13:31:14,480 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7fe0d4360dd0>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-07-21 13:32:07,723 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7fe0d435be10>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-07-21 13:33:25,384 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7fe0d435fe10>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-07-21 13:36:51,772 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7f2511f8ded0>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
