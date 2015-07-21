@@ -1,0 +1,166 @@
+2015-03-16 11:13:09,303 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7ff772397f50>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-03-16 11:13:12,241 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7ff77234c950>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-03-16 11:13:16,656 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7ff7725b0710>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-03-16 11:13:29,947 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7ff772533bd0>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-03-16 11:13:30,554 - INFO - Starting new HTTP connection (1): 54.66.138.173 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:259]
+2015-03-16 11:13:30,551 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:13:30,560 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:13:30,772 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:13:31,381 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=suit%20+&per_page=20&page=1&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 914 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:13:31,687 - DEBUG - "GET /ca14/service.php/find/ca_objects?q=suit%20 HTTP/1.1" 401 0 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:13:31,719 - ERROR - Federated Search: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/opt/vic-did/rooibos/federatedsearch/views.py", line 67, in run
+    self.hits = self.instance.hits_count(query)
+  File "/opt/vic-did/rooibos/unitedsearch/aggregate.py", line 23, in hits_count
+    return searcher.count(keyword)
+  File "/opt/vic-did/rooibos/unitedsearch/external/collectiveaccess.py", line 152, in count
+    search_object = search_object.json()
+  File "/usr/lib/python2.7/dist-packages/requests/models.py", line 741, in json
+    return json.loads(self.text, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/__init__.py", line 505, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ [/opt/vic-did/rooibos/federatedsearch/views.py:run:74]
+2015-03-16 11:14:12,103 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:14:12,229 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:14:12,822 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=suit%20+&per_page=50&page=1&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 1719 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:14:12,856 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7ff772530a10>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-03-16 11:14:23,207 - INFO - Starting new HTTP connection (1): 54.66.138.173 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:259]
+2015-03-16 11:14:23,203 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:14:23,290 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:14:23,366 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:14:23,459 - DEBUG - "GET /ca14/service.php/find/ca_objects?q=suit%20 HTTP/1.1" 401 0 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:14:23,466 - ERROR - Federated Search: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/opt/vic-did/rooibos/federatedsearch/views.py", line 67, in run
+    self.hits = self.instance.hits_count(query)
+  File "/opt/vic-did/rooibos/unitedsearch/aggregate.py", line 23, in hits_count
+    return searcher.count(keyword)
+  File "/opt/vic-did/rooibos/unitedsearch/external/collectiveaccess.py", line 152, in count
+    search_object = search_object.json()
+  File "/usr/lib/python2.7/dist-packages/requests/models.py", line 741, in json
+    return json.loads(self.text, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/__init__.py", line 505, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ [/opt/vic-did/rooibos/federatedsearch/views.py:run:74]
+2015-03-16 11:14:23,783 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=suit%20+&per_page=20&page=1&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 913 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:14:29,208 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7ff77d2b55d0>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-03-16 11:14:38,221 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:14:38,219 - INFO - Starting new HTTP connection (1): 54.66.138.173 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:259]
+2015-03-16 11:14:38,226 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:14:38,331 - DEBUG - "GET /ca14/service.php/find/ca_objects?q=camera%20lucida%20 HTTP/1.1" 401 0 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:14:38,338 - ERROR - Federated Search: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/opt/vic-did/rooibos/federatedsearch/views.py", line 67, in run
+    self.hits = self.instance.hits_count(query)
+  File "/opt/vic-did/rooibos/unitedsearch/aggregate.py", line 23, in hits_count
+    return searcher.count(keyword)
+  File "/opt/vic-did/rooibos/unitedsearch/external/collectiveaccess.py", line 152, in count
+    search_object = search_object.json()
+  File "/usr/lib/python2.7/dist-packages/requests/models.py", line 741, in json
+    return json.loads(self.text, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/__init__.py", line 505, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ [/opt/vic-did/rooibos/federatedsearch/views.py:run:74]
+2015-03-16 11:14:38,415 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:14:38,864 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=camera%20lucida%20+&per_page=20&page=1&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 1034 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:14:44,833 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:14:44,883 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:14:45,531 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=camera%20lucida%20+&per_page=50&page=1&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 1698 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:14:52,231 - INFO - Starting new HTTP connection (1): 54.66.138.173 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:259]
+2015-03-16 11:14:52,236 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:14:52,244 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:14:52,327 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:14:52,411 - DEBUG - "GET /ca14/service.php/find/ca_objects?q=camera%20lucida%20 HTTP/1.1" 401 0 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:14:52,416 - ERROR - Federated Search: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/opt/vic-did/rooibos/federatedsearch/views.py", line 67, in run
+    self.hits = self.instance.hits_count(query)
+  File "/opt/vic-did/rooibos/unitedsearch/aggregate.py", line 23, in hits_count
+    return searcher.count(keyword)
+  File "/opt/vic-did/rooibos/unitedsearch/external/collectiveaccess.py", line 152, in count
+    search_object = search_object.json()
+  File "/usr/lib/python2.7/dist-packages/requests/models.py", line 741, in json
+    return json.loads(self.text, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/__init__.py", line 505, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ [/opt/vic-did/rooibos/federatedsearch/views.py:run:74]
+2015-03-16 11:14:52,895 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=camera%20lucida%20+&per_page=20&page=1&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 1034 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:15:01,046 - INFO - Starting new HTTP connection (1): 54.66.138.173 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:259]
+2015-03-16 11:15:01,045 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:15:01,131 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:15:01,188 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:15:01,286 - DEBUG - "GET /ca14/service.php/find/ca_objects?q=camera%20lucida%20 HTTP/1.1" 401 0 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:15:01,292 - ERROR - Federated Search: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/opt/vic-did/rooibos/federatedsearch/views.py", line 67, in run
+    self.hits = self.instance.hits_count(query)
+  File "/opt/vic-did/rooibos/unitedsearch/aggregate.py", line 23, in hits_count
+    return searcher.count(keyword)
+  File "/opt/vic-did/rooibos/unitedsearch/external/collectiveaccess.py", line 152, in count
+    search_object = search_object.json()
+  File "/usr/lib/python2.7/dist-packages/requests/models.py", line 741, in json
+    return json.loads(self.text, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/__init__.py", line 505, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ [/opt/vic-did/rooibos/federatedsearch/views.py:run:74]
+2015-03-16 11:15:01,653 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=camera%20lucida%20+&per_page=20&page=1&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 1034 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:15:05,530 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7ff77d298ed0>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]
+2015-03-16 11:15:14,986 - INFO - Starting new HTTP connection (1): 54.66.138.173 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:259]
+2015-03-16 11:15:14,993 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:15:14,991 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:15:15,055 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:15:15,121 - DEBUG - "GET /ca14/service.php/find/ca_objects?q=early%20computers%20 HTTP/1.1" 401 0 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:15:15,126 - ERROR - Federated Search: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/opt/vic-did/rooibos/federatedsearch/views.py", line 67, in run
+    self.hits = self.instance.hits_count(query)
+  File "/opt/vic-did/rooibos/unitedsearch/aggregate.py", line 23, in hits_count
+    return searcher.count(keyword)
+  File "/opt/vic-did/rooibos/unitedsearch/external/collectiveaccess.py", line 152, in count
+    search_object = search_object.json()
+  File "/usr/lib/python2.7/dist-packages/requests/models.py", line 741, in json
+    return json.loads(self.text, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/__init__.py", line 505, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/local/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ [/opt/vic-did/rooibos/federatedsearch/views.py:run:74]
+2015-03-16 11:15:15,668 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=early%20computers%20+&per_page=20&page=1&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 1222 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:15:23,615 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:15:23,666 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:15:24,213 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=early%20computers%20+&per_page=50&page=1&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 2671 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:15:40,592 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:15:40,803 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:15:41,472 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=early%20computers%20+&per_page=50&page=2&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 1527 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]
+2015-03-16 11:15:49,284 - INFO - Starting new HTTPS connection (1): api.flickr.com [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_new_conn:711]
+2015-03-16 11:15:49,319 - DEBUG - Setting read timeout to None [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:390]
+2015-03-16 11:15:50,151 - DEBUG - "GET /services/rest/?method=flickr.photos.search&api_key=3a092eb0151a289f86ea4b9bd71c3d8e&text=early%20computers%20+&per_page=50&page=3&license=1%2C2%2C3%2C4%2C5%2C6&format=json&nojsoncallback=1 HTTP/1.1" 200 1633 [/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py:_make_request:430]

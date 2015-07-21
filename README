@@ -1,0 +1,4 @@
+An extension of MDID for Victoria University of Wellington.\n The purpose of the software is to integrate several image searchers into one, to allow lecturers to create presentations with those images and to allow access to those presentations via mobile devices.
+
+
+If you wish a quickstart, update run_workers to point to the correct file locations for your vic-did installation and then run it.

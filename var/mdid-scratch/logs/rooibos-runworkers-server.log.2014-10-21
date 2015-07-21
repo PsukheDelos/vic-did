@@ -1,0 +1,2 @@
+2014-10-21 05:55:42,771 - INFO - unitedsearch download media started for <GearmanJob func=unitedsearch_download_media arg=1 handle=1 conn=<GearmanConnection 127.0.0.1:4730 connected=True dead=False>> [/opt/vic-did/rooibos/unitedsearch/workers.py:unitedsearch_download_media:16]
+2014-10-21 05:55:51,627 - INFO - unitedsearch download media started for <GearmanJob func=unitedsearch_download_media arg=2 handle=2 conn=<GearmanConnection 127.0.0.1:4730 connected=True dead=False>> [/opt/vic-did/rooibos/unitedsearch/workers.py:unitedsearch_download_media:16]

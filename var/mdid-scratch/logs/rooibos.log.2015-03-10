@@ -1,0 +1,1 @@
+2015-03-10 22:59:20,784 - DEBUG - Defined impersonation signal (<django.dispatch.dispatcher.Signal object at 0x7ff7723e4f90>) [/opt/vic-did/rooibos/contrib/impersonate/signals.py:<module>:6]

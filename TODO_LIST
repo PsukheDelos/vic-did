@@ -1,0 +1,61 @@
+maybe the database isnt running properly? hrm
+not getting media in line 82 of rooibos/storage/__init.py
+which means that the record is working but the image is not media, it's returning a null...
+need to figure out why that is.
+
+
+maybe need to reset the database? could be that, should try it. yes.
+------------- 26/09/2014
+
+The database is listed as read only. This could be due to a lot of different issues, so 
+need to look into which it might be, could just be a chown error, could be a user/password
+error. 
+
+might be best to delete DB completely and start over, but that is a shit practice and best 
+avoided, for obv reasons.
+------------- 29/09/2014
+
+-------------01/10/2014
+need to work out why the images arent resizing properly in the create a presentation screen 
+and why images arent being downloaded properly in the records (or if they are)
+
+According to the httpd logs one of the main issues is that there is no module named viewers.
+this could be an issue with django or with the python installation. if it is with the 
+python installation then it is to do with the server update, unfortunately.
+
+presumably installing the correct modules will solve some of the issues.
+
+
+media is also still getting caught up in random spots. There's some things which work 
+and are clearly labelled as MEDIA, but others don't and at the moment I'm not 100%
+sure why. May be an issue with imagemagick or something. May be an issue with 
+viewers module. Don't think it is the latter, however, or all images would likely
+be failing...
+
+-------------03/10/2014
+ArtStor images not displaying thumbnails. great. :|
+
+
+
+====================NEW SERVER============================================================
+
+update Gallica to show proper logo
+reactivate artstor and set it up so it is working, if possible
+reactivate flickr at some point
+fix Trove?
+make sure CA is running with MDID
+fix images with presentations
+fix Advanced Search properly
+
+THINGS TO TEST
+install CA1.4 and check that it can be reached properly as well
+test presentations
+Advanced Search doesn't seem to be working properly - need to check it out
+
+-------04/11
+- rooibos/presentation/templates/presentation_properties.html is what contains the image, now to figure 
+    why the link isnt going to the right place. Not only that though
+
+- for CA - collectiveaccess.py links to MDID_SEARCHER.php which iirc is a script that translates
+    the python search to a php script for use in CA - this may be obsolete or broken now, since it
+    was made with CA1.3  

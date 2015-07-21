@@ -1,0 +1,6 @@
+2014-11-06 21:38:34,277 - INFO - Starting server [/opt/vic-did/rooibos/workers/management/commands/runworkers.py:run:21]
+2014-11-06 21:38:34,344 - INFO - Starting workers: unitedsearch_download_media, testjob, csvimport [/opt/vic-did/rooibos/workers/management/commands/runworkers.py:handle:52]
+2014-11-06 22:20:15,200 - INFO - Starting workers: unitedsearch_download_media, testjob, csvimport [/opt/vic-did/rooibos/workers/management/commands/runworkers.py:handle:52]
+2014-11-06 22:20:15,128 - INFO - Starting server [/opt/vic-did/rooibos/workers/management/commands/runworkers.py:run:21]
+2014-11-06 22:22:45,025 - INFO - Starting workers: unitedsearch_download_media, testjob, csvimport [/opt/vic-did/rooibos/workers/management/commands/runworkers.py:handle:52]
+2014-11-06 22:22:44,964 - INFO - Starting server [/opt/vic-did/rooibos/workers/management/commands/runworkers.py:run:21]

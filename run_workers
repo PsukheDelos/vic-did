@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /opt/vic-did/solr/
+java -jar start.jar &
+
+cd /opt/vic-did/rooibos/
+python manage.py runworkers --server &

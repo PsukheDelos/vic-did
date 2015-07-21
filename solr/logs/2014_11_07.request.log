@@ -1,0 +1,2 @@
+127.0.0.1 -  -  [07/11/2014:04:50:37 +0000] "GET /solr/select/?q=%28%28acl_read%3Aanon%29%29+AND+mimetype%3A%28%28%28%29+AND+%28s%2A-image%2Fjpeg%29%29%29+AND+NOT+owner%3A%28%28%5B%2A+TO+%2A%5D%29%29&sort=random_761062+asc&rows=8&fl=id%2Cpresentations HTTP/1.1" 400 1802 
+127.0.0.1 -  -  [07/11/2014:04:50:40 +0000] "GET /solr/select/?q=mimetype%3A%28%28s%2A-image%2Fjpeg%29%29+AND+NOT+owner%3A%28%28%5B%2A+TO+%2A%5D%29%29&sort=random_995425+asc&rows=8&fl=id%2Cpresentations HTTP/1.1" 200 394 

@@ -1,0 +1,69 @@
+
+OBSOLETE ERROR{
+    Mdid was built with PIL, which is no longer updated -- eventually this will need to be
+    updated to use PILLOW, the fork of PIL which is still updated, but for now, the 
+    only solution is to specifically install it via easy_install.
+
+    Error: Module named Image does not exist
+    short term fix:Uninstall all instances of PIL and install it via easy_install
+    long term fix: change all instances of "import Image" to "from PIL import Image"
+}
+
+==================================================================================
+Mdid is using Django 1.2.3 - current Django version is 1.7, needs to be updated, but 
+there are quite a few differences between the two which would need to be fixed, so 
+that will be done at a later date, past the proof of concept stage.
+==================================================================================
+my suggestion to whomever upgrades the django installation is to either:
+a) read through all the changelogs on the django website (there's a lot) or,
+b) install one version at a time and slowly work your way up, fixing what breaks. 
+
+both are time consuming, but just slamming down 1.7 and trying to fix it from there
+w/o reading the changelogs will cause a lot of issues, since the changes start back
+as far as 1.5, at LEAST, so possibly earlier
+
+====================================================================================
+At the moment rooibos/settings_local.py contains a few key items: it has the API keys 
+for some of the databases and a few settings to change the way the system works
+if the system is running behing a proxy, you should inform it by changing 
+PROXY to True.
+DEBUG works in the same way for Debug mode.
+MOBILE_ENABLED is for when the mobile extension is fully completed. At the moment
+there is a page missing, which causes it to break, thus this setting needs to be False
+until that is fixed
+
+====================================================================================
+
+Searchers are located in the rooibos/unitedsearch/external module.
+Searchers contain some common attributes:
+    \STARTLIST{
+    - name : name of the searcher*,
+    - identifier : the identifier of the searcher*,
+    - LOGO_URL : the url of the logo image the searcher uses,
+    }
+    * - these are required for the searcher to work
+
+To implement a searcher, it is necessary to import it and add its 'name' to searchers.py
+
+To allow advanced search implementation, it is necessary to create a translation dictionary
+for the advanced keywords the searcher uses. This dictionary then needs to be added to the list
+at rooibos/unitedsearch/external/translators
+
+things to note: 
+    \STARTLIST{
+    - it is possible to have a searcher with no advanced search functionality, the translator
+        compensates for this
+    - it is possible to expand the translator language easily, but there needs to be a word 
+        equivalent for all searchers. Setting a new word to be just a 'keyword' of some kind
+        is a good default
+    - 
+    }
+            
+=> TO Run Vic-Did use VIRTUALENV - sourced to ENV folder in /opt/vic-did/ 
+    then run "run_workers" which will start the worker script along with Solr
+
+=> To shutdown workers and Solr, just run the script "shutdown_workers" as root. 
+    BE AWARE THIS IS NOT PARTICULARLY SAFE - IT WILL CLOSE DOWN ALL PYTHON AND JAVA
+        PROCESSES!!! USE WITH CAUTION! 
+    an alternative is to kill the processes manually by looking up their ID, this is
+    a safer method when the server is rolled out to production, but still not amazing 

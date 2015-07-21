@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en-NZ" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-NZ" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-NZ" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-NZ" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-NZ" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset='utf-8' />
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"826293df84","applicationID":"1354080","transactionName":"dVtYTUsJCl5QEEteEFNZRRZKDglF","queueTime":0,"applicationTime":8,"agentToken":null,"agent":"js-agent.newrelic.com/nr-476.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script><![endif]-->
+<title>Model wearing suit | Items | National Library of New Zealand</title>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="JeOkU1WXutCQtKKSEmZd96saRiX1Xpw0T0x/BTSTJIQ=" name="csrf-token" />    <meta name="DC.creator" content="Not specified"/>
+    <meta name="DC.description" content="Model wearing suit, photographed by K E Niven and Co of Wellington.
+Quantity: 1 b&amp;w original negative(s).
+Physical Description: Cellulosic film negative
+Finding Aids: Studio card index: Kirkcaldie &amp; Stains Ltd. no 4063."/>
+    <meta name="DC.format" content="1 b&amp;w original negative(s)"/>
+    <meta name="DC.format" content="Single negative"/>
+    <meta name="DC.format" content="Cellulosic film negative"/>
+    <meta name="DC.identifier" content="ndha:IE3375516"/>
+    <meta name="DC.identifier" content="tap:905864"/>
+    <meta name="DC.identifier" content="urn:nbn:nz:wtu:1/2-209962-F"/>
+    <meta name="DC.identifier" content="1/2-209962-F"/>
+    <meta name="DC.language" content="en"/>
+    <meta name="DC.relation" content="K E Niven and Co :Commercial negatives"/>
+    <meta name="DC.relation" content="PA-Group-00348"/>
+    <meta name="DC.relation" content="tap:1225216"/>
+    <meta name="DC.rights" content="[]"/>
+    <meta name="DC.title" content="Model wearing suit"/>
+    <meta name="DNZ.category" content="Images"/>
+    <meta name="DNZ.collection" content="K E Niven and Co :Commercial negatives"/>
+    <meta name="DNZ.collection" content="Commercial negatives"/>
+    <meta name="DNZ.collection" content="TAPUHI"/>
+    <meta name="DNZ.collection" content="Photographic Archive"/>
+    <meta name="DNZ.content_partner" content="Alexander Turnbull Library"/>
+    <meta name="DNZ.copyright" content="Unknown"/>
+    <meta name="DNZ.primary_collection" content="TAPUHI"/>
+    <meta name="DNZ.display_collection" content="TAPUHI"/>
+    <meta name="DNZ.display_content_partner" content="Alexander Turnbull Library"/>
+    <meta name="DNZ.landing_url" content="http://natlib.govt.nz/records/22564854"/>
+    <meta name="DNZ.large_thumbnail_url" content="http://ndhadeliver.natlib.govt.nz/NLNZStreamGate/get?dps_pid=IE3375516"/>
+    <meta name="DNZ.rights" content="[]"/>
+    <meta name="DNZ.thumbnail_url" content="http://ndhadeliver.natlib.govt.nz/delivery/DeliveryManagerServlet?dps_pid=IE3375516&amp;dps_func=thumbnail"/>
+    <meta name="DNZ.library_collection" content="Photographic Archive"/>
+    <meta name="DNZ.atl_purchasable" content="true"/>
+    <meta name="DNZ.atl_purchasable_download" content="true"/>
+    <meta name="DNZ.origin_url" content="http://tapuhi.natlib.govt.nz/cgi-bin/spydus/NAV/GLOBAL/OPHDR/1/905864"/>
+    <meta name="DNZ.shelf_location" content="1/2-209962-F"/>
+    <meta name="DCTERMS.relation" content="K E Niven and Co :Commercial negatives"/>
+    <meta name="DCTERMS.relation" content="PA-Group-00348"/>
+    <meta name="DCTERMS.relation" content="tap:1225216"/>
+    <meta name="DCTERMS.isPartOf" content="Commercial negatives"/>
+    <meta name="DCTERMS.isPartOf" content="PAColl-0968-01"/>
+    <meta name="DCTERMS.isPartOf" content="tap:886056"/>
+    <meta name="ADMIN.is_catalog_record" content="false"/>
+
+  <meta property="og:url" content="http://natlib.govt.nz/records/22564854" />
+  <meta property="og:title" content="Model wearing suit | National Library of New Zealand" />
+  <meta property="og:image" content="http://ndhadeliver.natlib.govt.nz/delivery/DeliveryManagerServlet?dps_pid=IE3375516&amp;dps_func=thumbnail" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Model wearing suit, photographed by K E Niven and Co of Wellington.
+Quantity: 1 b&amp;w original negative(s).
+Physical Description: Cellulosic film neg..." />
+
+
+<link href="/assets/application-799257325f68560d93b3f825a70cf4be.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<link href="/assets/print-d9b1b4735d0873c78499e4d1d031792f.css" media="print" rel="stylesheet" type="text/css" />
+
+
+<script src="/assets/snack-min-7312e2d88e0a08f15b78e09e93b7af3b.js" type="text/javascript"></script>
+<script src="/assets/site-notice-c1818a8cbcf5e1ab4f11008894fa5ea3.js" type="text/javascript"></script>
+
+  <script src="/assets/application-40dc41ca10ea2baaad8a4f424624769f.js" type="text/javascript"></script>
+
+<script src="/assets/modernizr-min-5016c066b8368f86013c1cc17c0089ec.js" type="text/javascript"></script>
+
+   <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet -->
+   <script type="text/javascript">
+   // no search results tracker
+
+   var _gaq = _gaq || [];
+
+   _gaq.push(['_setAccount', 'UA-4673060-18']);
+
+   _gaq.push( 
+      ['_trackPageview']
+   );
+
+   (function(d,t){
+      var g=d.createElement(t);
+      s=d.getElementsByTagName(t)[0];
+      g.async=1;
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s);
+   })(document,'script');
+
+   ctr = 0;
+
+   setTimeout(function() {
+      if (document.readyState == 'complete' && document.getElementsByClassName("no-results").length > 0) {  
+         var lbl = 'Search No Results: ' + document.getElementById('search-box').value;
+         _gaq.push(['_trackEvent', 'Search No Results', 'Search', lbl]);
+      }
+   }, 500);
+
+   </script>
+
+
+
+  </head>
+  <body id="" class="" onload="setSearchBoxFocus();">
+        <div id="header">
+  <header role="banner">
+
+    
+
+    <a href="#content" class="skip-to-content">Skip to main content</a>
+
+    <div class="top-nav">
+      <ul>
+        <li><a href="/researchers">For researchers</a></li>
+        <li><a href="/librarians">For librarians</a></li>
+        <li><a href="/publishers-and-authors">For publishers &amp; authors</a></li>
+        <li><a href="/schools">For schools</a></li>
+        <li><a href="/business">For business</a></li>
+
+
+          <li class="ask-librarian right"><a href="/questions/new?return_to=%2Frecords%2F22564854">Ask a librarian</a></li>
+
+        <li class="right">
+          <div id="user"><div class="account"><a href="/services/log-on-to-the-national-library?origin=%2Frecords%2F22564854">Login</a> | <a href="/services/log-on-to-the-national-library?origin=%2Frecords%2F22564854">Signup</a></div></div>
+        </li>
+
+      </ul>
+    </div><!-- end top-nav -->
+
+    <div class="content">
+      <div class="natlib-logo-cont">
+        <a href="/"><img alt="National library of New Zealand Te Puna Mātauranga o Aotearoa" height="61" src="/assets/logo-natlib-8b22fef5bcc88641f62280456c3173a4.png" width="236" /></a>
+        <img class="print" src="/assets/print-natlib.png" alt="print logo" />
+      </div>
+      <div class="main-nav" id= "nav">
+
+  <nav role="navigation" class="main-nav">
+    <h2 class="access-heading">Main Menu</h2>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/collections">Collections</a></li>
+      <li><a href="/search">Search</a></li>
+      <li><a href="/visiting">Visiting</a></li>
+      <li><a href="/events">Events</a></li>
+      <li><a href="/about-us">About us</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+  </nav><!-- end navigation -->
+</div>
+
+    </div>
+
+    <div id="stripe"></div>
+
+      <div id="search">
+        <form accept-charset="UTF-8" action="http://natlib.govt.nz/items" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+          
+
+          <input id="search-box" name="text" placeholder="enter your search terms..." title="enter your search terms..." type="text" value="" />
+          <input id="search-btn" class="btn" type="submit" value="Search Collections" />
+</form>      </div><!--end search -->
+
+
+  </header>
+</div>
+
+
+    <div id="container">
+      <div id="main" role="main" class="landing-page sidebar sidebar-left">        
+        
+        
+
+
+<div id="content">
+
+  
+  <h1 class="">
+    Model wearing suit
+    <form accept-charset="UTF-8" action="/favourites" class="favourite_form inline" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JeOkU1WXutCQtKKSEmZd96saRiX1Xpw0T0x/BTSTJIQ=" /></div><input id="item_id" name="item_id" type="hidden" value="22564854" /><input class="favourite " data-item-id="22564854" name="commit" type="submit" value="favourite" /></form>
+  </h1>
+  
+
+  
+
+    <img alt="Model wearing suit" src="http://natlib.govt.nz/thumbnails/?resize=664&gt;&amp;src=http%3A%2F%2Fndhadeliver.natlib.govt.nz%2FNLNZStreamGate%2Fget%3Fdps_pid%3DIE3375516" />
+
+<p class="byline"></p>
+
+
+
+  <p><span class="label">Ref: </span>1/2-209962-F</p>
+
+  <p>Model wearing suit, photographed by K E Niven and Co of Wellington.</p><p>Quantity: 1 b&amp;w original negative(s).</p><p>Physical Description: Cellulosic film negative</p><p>Finding Aids: Studio card index: Kirkcaldie &amp; Stains Ltd. no 4063.</p>
+
+
+<p><span class="label">Use/Reproduction: </span>[]</p>
+
+<p><span class="label">Access restrictions: </span>Not restricted</p>
+
+<p class="label part-of">Part of: <a href="/tapuhi/1225216">K E Niven and Co :Commercial negatives</a> / <a href="/tapuhi/886056">Commercial negatives</a></p>
+
+
+
+<p><span class="label">Format: </span>1 b&w original negative(s), Single negative, Cellulosic film negative</p>
+
+<a href="http://tapuhi.natlib.govt.nz/cgi-bin/spydus/NAV/GLOBAL/OPHDR/1/905864" class="external">See original record</a>
+
+
+
+<hr/><div class="purchasing"><h3>Purchasing this Item</h3><p>This item is available as a high resolution download. Depending on usage it may require approval which can take up to 10 working days.</p><p>If this item has multiple pages, or is several items attached to a single record, you can use <a href="/questions/new?record_id=22564854">this form</a> to order your copy.</p></div><div class="usage"><h3>Using this Item</h3><p>You can copy this item for personal use, share it, and post it on a blog or website. It cannot be used commercially without permission, please <a href="/questions/new?record_id=22564854">ask us for advice</a>. If reproducing this item, please maintain the integrity of the image (i.e. don't crop, recolour or overprint it), and ensure the following credit accompanies it:</p><span>Model wearing suit. K E Niven and Co :Commercial negatives. Ref: 1/2-209962-F. Alexander Turnbull Library, Wellington, New Zealand. <a href="http://natlib.govt.nz/records/22564854">http://natlib.govt.nz/records/22564854</a></span><p>More information can be found in our <a href="/about-this-site/terms-of-use">terms of use</a>.</p></div>
+
+<p><span class="label">Copyright: </span>Unknown</p>
+
+<div class="record-url print">
+  http://natlib.govt.nz/records/22564854
+</div>
+
+
+
+  <hr/>
+  <h5 class="no-print">Share this item</h5>
+<ul class="share">
+  <li class="facebook"><a href="http://www.facebook.com/sharer.php?t=Model+wearing+suit&amp;u=http%3A%2F%2Fnatlib.govt.nz%2Frecords%2F22564854" class="popup" data-social="Facebook">Share on Facebook</a></li>
+  <li class="twitter"><a href="http://twitter.com/share?counturl=http%3A%2F%2Fnatlib.govt.nz%2Frecords%2F22564854&amp;text=Model+wearing+suit&amp;url=http%3A%2F%2Fnatlib.govt.nz%2Frecords%2F22564854&amp;via=NLNZ" class="popup" data-social="Twitter">Share on Twitter</a></li>
+  <li class="email"><a href="#email-item" id="email">Email this Item</a></li>
+</ul>
+
+<div id="email-share-container">
+  <div id="email-item">
+    <h1>Email this item</h1>
+
+    <form accept-charset="UTF-8" action="/email_messages" class="email-share" data-validate="true" id="new_email_message" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JeOkU1WXutCQtKKSEmZd96saRiX1Xpw0T0x/BTSTJIQ=" /></div><div id="a_comment_body_hp_1416259312"><style media="screen" scoped="scoped" type="text/css">#a_comment_body_hp_1416259312 { display:none; }</style><label for="a_comment_body">Do not fill in this field</label><textarea id="a_comment_body" name="a_comment_body">
+</textarea></div>
+      <label for="email_message_sender_name">Your Name<span>*</span></label>
+      <input id="email_message_sender_name" name="email_message[sender_name]" size="30" type="text" />
+      <hr/>
+      <label for="email_message_recipient_name">Recipient Name</label>
+      <input id="email_message_recipient_name" name="email_message[recipient_name]" size="30" type="text" />
+
+      <label for="email_message_recipient_email">Recipient Email Address<span>*</span></label>
+      <input id="email_message_recipient_email" name="email_message[recipient_email]" size="30" type="text" />
+
+      <label for="email_message_message">Your Message</label>
+      <textarea cols="40" id="email_message_message" name="email_message[message]" rows="20">
+</textarea>
+
+      <input id="email_message_record_id" name="email_message[record_id]" type="hidden" value="22564854" />
+      
+      <span class="indicates"><span>*</span> Indicates required field</span>
+
+      <input class="btn" name="commit" type="submit" value="send" />
+</form><script>//<![CDATA[
+if(window.ClientSideValidations==undefined)window.ClientSideValidations={};if(window.ClientSideValidations.forms==undefined)window.ClientSideValidations.forms={};window.ClientSideValidations.forms['new_email_message'] = {"type":"ActionView::Helpers::FormBuilder","input_tag":"<span class=\"fieldWithErrors\"><span id=\"input_tag\" /></span>","label_tag":"<span class=\"fieldWithErrors\"><label id=\"label_tag\" /></span>","validators":{"email_message[sender_name]":{"presence":[{"message":"can't be blank"}]},"email_message[recipient_email]":{"presence":[{"message":"can't be blank"}],"format":[{"message":"is invalid","with":/^([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})$/i,"allow_blank":true}]}}};
+//]]></script>  </div>
+</div>
+
+<script type="text/javascript">
+  $(function(){
+    $("a#email").fancybox();
+
+    $('a.popup').live('click', function(e){
+      e.preventDefault();
+        _gaq.push(['_trackEvent', 'Share links', $(this).attr('data-social'), 'http://natlib.govt.nz/records/22564854']);
+      newwindow=window.open($(this).attr('href'),'','height=300,width=500');
+      if (window.focus) {newwindow.focus()}
+     });
+  })
+</script>
+
+
+</div>
+
+<!--[if lte IE 8]>
+  <div id="sidebar">
+<![endif]-->
+
+<aside role="complementary">
+  
+<div id="cart"  style='display: none;' >
+  <ul>
+    <li class="cart inactive"><a href="/records/22564854?tab=cart">Cart</a></li>
+  </ul>
+
+  <table id="cart_items" class="items inactive">
+    <tr>
+      
+
+      <tr class="summary">
+        <td colspan="2">
+          <a href="/cart_items?return_to=%2Frecords%2F22564854" id="cart_count">0 items in your cart, there is a limit of 10 items.</a>
+          <span>
+            <span class="total">Total: $0.00</span>
+            <a href="/cart_items?return_to=%2Frecords%2F22564854" class="btn">Checkout</a>
+          </span>
+        </td>
+      </tr>
+    </tr>
+  </table>
+
+  <table id="viewing_items" class="items ">
+    <tr>
+      
+
+      <tr class="summary">
+        <td colspan="2">
+          <a href="/viewing_cart_items?return_to=%2Frecords%2F22564854" id="viewing_count">You have 0 items in your list, there is a limit of 10 items per request</a>
+          <span>
+            <a href="/viewing_cart_items?return_to=%2Frecords%2F22564854" class="btn">Send request</a>
+          </span>
+        </td>
+      </tr>
+    </tr>
+  </table>
+</div> <!-- end of cart -->
+
+  <div class="btn-box">
+
+    <form accept-charset="UTF-8" action="/cart_items" data-remote="true" id="22564854" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JeOkU1WXutCQtKKSEmZd96saRiX1Xpw0T0x/BTSTJIQ=" /></div><input id="item_id" name="item_id" type="hidden" value="22564854" /><input id="return_to" name="return_to" type="hidden" value="/records/22564854" /><input class="btn add-to-cart" name="commit" type="submit" value="Order copy" /></form>
+    
+      <a href="http://natlib.govt.nz/questions/new?record_id=22564854" class="btn" id="new_enquiry">Send an enquiry</a>
+    
+    
+  </div>
+
+    
+  
+  
+  
+  
+  
+
+
+
+
+
+  <script type='text/javascript'>
+    $(function() {
+      var _gaq = _gaq || [];
+
+      $("a#new_enquiry").fancybox({
+        'href': '/questions/new.js?record_id=22564854',
+        'ajax': {dataType: 'html'}
+      });
+      
+      var $request_to_view = $("a#request-to-view")
+      var height = parseInt($request_to_view.data("height"))
+      
+        _gaq.push(['_trackEvent','Page View', 'Landing Page', "collection: K E Niven and Co :Commercial negatives" ])
+        _gaq.push(['_trackEvent','Page View', 'Landing Page', "collection: Commercial negatives" ])
+        _gaq.push(['_trackEvent','Page View', 'Landing Page', "collection: TAPUHI" ])
+        _gaq.push(['_trackEvent','Page View', 'Landing Page', "collection: Photographic Archive" ])
+
+      $request_to_view.fancybox({
+        'href': $(this).attr("href"),
+        'width': 710,
+        'height': height,
+        'onComplete': (function() {
+          var collection;
+          var tapuhi = true;
+          var nlnzcat = false;
+
+          if (tapuhi) {
+            collection = 'TAPUHI';
+          } else if (nlnzcat) {
+            collection = 'NLNZcat';
+          }
+
+          if (collection) {
+            _gaq.push(['_trackEvent', 'Request to view', collection, window.location.href]);
+          }
+        })
+      });
+    });
+  </script>
+
+  <!-- PENDING -->
+  <!-- The ucm_records/form partial was removed from here, because the API currently doesn't have a way to change atl_fields -->
+  
+</aside><!-- end sidebar -->
+
+<!--[if lte IE 8]>
+  </div>
+<![endif]-->
+
+
+      </div> <!-- end of main -->
+    </div> <!-- end of container -->
+
+    <!--[if lte IE 8]>
+  <div id="footer">
+<![endif]-->
+
+
+<footer id="footer" role="contentinfo">
+  <h2 class="access-heading">Footer</h2>
+
+  <div class="stripe"></div>
+  <div class="visiting-footer">
+    <div class="row">
+      <div class="tile">
+  <h3>National Library Wellington</h3>
+
+  <ul>
+    <li>Te Ahumairangi: 8.30am – 5pm</li>
+    <li>Reading Rooms: 10am – 5pm</li>
+    <li>Monday to Saturday</li>
+    <li>Corner Molesworth &amp; Aitken St</li>
+    <li>0800 474 300</li>
+    
+  </ul>
+</div>
+
+<div class="tile">
+  <h3>National Library Auckland</h3>
+
+  <ul>
+    <li>10am – 6pm Monday to Friday</li>
+    <li>8 Stanley Street, Parnell</li>
+    <li>09 365 8800</li>
+    
+  </ul>
+</div>
+
+<div class="tile">
+  <h3>National Library Christchurch</h3>
+<ul>
+    <li>8.30am – 5pm, Monday to Friday</li>
+    <li>150 Cavendish Road, Casebrook</li>
+    <li>03 366 1075</li>
+</ul>
+</div>
+
+<div class="tile no-line">
+  <h3>National Library Palmerston North</h3>
+  <ul>
+    <li>8.30am – 5pm, Monday to Friday</li>
+    <li>1015 Tremaine Avenue</li>
+    <li>06 353 0475</li>
+</ul>
+</div>  
+    </div>
+  </div>
+
+  <div class="nav">
+    <ul role="navigation">
+      <li><a href="/about-this-site/contact-us">Contact us</a>
+</li>
+<li><a href="/about-this-site/terms-of-use">Terms of use</a>
+</li>
+<li><a href="/about-this-site/copyright-and-privacy">Copyright and privacy</a>
+</li>
+<li><a href="/about-this-site/accessibility-standards">Accessibility</a>
+</li>
+<li><a href="/about-this-site/help">Help</a>
+</li>
+<li><a href="/about-this-site">About this site</a>
+</li>
+<li class="back-to-top"><a href="#">back to top</a>
+</li>
+    </ul>
+  </div>  
+
+  <div class="content">
+    <div>
+      <p><a href="http://newzealand.govt.nz" id="nzgovt-logo">New Zealand Government</a>
+<a href="/" id="natlib-logo">Te Puna Mātauranga o Aotearoa National library of New Zealand</a>
+</p>
+<p>Part of the <a href="http://www.dia.govt.nz">Department of Internal Affairs</a>
+</p>
+    </div>
+  </div>
+</footer>
+<!--[if lte IE 8]>
+  </div>
+<![endif]-->
+
+
+    <script type="text/javascript">
+      function setSearchBoxFocus() {
+        var v = document.getElementById('search-box'),
+            hash_tag = window.location.hash.replace('#', '');
+            
+        if (v && (hash_tag.length == 0 || document.getElementById(hash_tag) == null)) {
+          v.focus();
+        }
+      }
+    </script>
+  </body>
+</html>
