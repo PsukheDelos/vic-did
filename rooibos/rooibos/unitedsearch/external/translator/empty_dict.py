@@ -1,3 +1,0 @@
-dictionary={
-    'keywords' : 'keywords'
-}
