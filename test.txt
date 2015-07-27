@@ -1,0 +1,13 @@
+ansible
+	pull from git
+
+brew install pyenv-virtualenv
+
+pathname without spaces
+virtualenv venv
+
+source venv/bin/activate
+
+pip install ansible
+
+need to create /etc/ansible/hosts
