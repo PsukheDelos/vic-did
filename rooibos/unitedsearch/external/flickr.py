@@ -5,13 +5,17 @@ import json
 import requests
 import rooibos.unitedsearch as unitedsearch 
 
-from rooibos.settings_local import DEBUG, PROXY, FLICKR_KEY, FLICKR_SECRET
+from rooibos.settings_local import DEBUG, FLICKR_KEY, FLICKR_SECRET
 from django.conf import settings
+from unitedsearch.common import proxy_opener
 from unitedsearch import RecordImage, Result, ResultImage
 from unitedsearch import MapParameter, ScalarParameter, OptionalParameter, UserDefinedTypeParameter
 from unitedsearch import DefinedListParameter, DoubleParameter, ListParameter
 from unitedsearch.common import modulate_offset 
 from unitedsearch.external.translator.query_language import Query_Language
+
+from xml.dom import minidom
+import flickrapi
 
 name = "Flickr"
 identifier = "flickr"
@@ -149,6 +153,49 @@ def get_logo():
     return LOGO_URL
 def get_searcher_page():
     return HOMEPAGE_URL
+    
+def getImage(identifier):
+    identifier = str(identifier)
+    f = flickrapi.FlickrAPI(FLICKR_KEY, FLICKR_SECRET, cache=True, store_token=False)
+    image_data = f.flickr_call(
+        method="flickr.photos.getSizes",
+        photo_id=identifier,
+        format='rest'
+    )
+    xml = minidom.parseString(image_data)
+    images = xml.getElementsByTagName("size")
+    images_len = len(images)
+    # TODO: Make me fast, and make me cleeeean
+    location_url = None
+    thumbnail_url = None
+    for s in images:
+        if s.attributes["label"].value == "Thumbnail":
+            thumbnail_url = s.attributes["source"].value
+        if s.attributes["label"].value == "Original":
+            location_url = s.attributes["source"].value
+    
+    image_info = f.flickr_call(
+        method="flickr.photos.getInfo",
+        photo_id=identifier,
+        format="rest"
+    )
+    info = minidom.parseString(image_info)
+    title = str(info.getElementsByTagName("title")[0].childNodes[0].nodeValue)
+    return RecordImage(location_url, thumbnail_url, title, dict(), identifier)
+
+"""
+===========
+URL HELPERS
+-- Based on the DigitalNZ Parser
+===========
+"""
+
+def _get_url(url):
+    proxy_url = proxy_opener()
+    html = proxy_url.open(url)
+    return html
+
+    
 
 """
 ===========
@@ -192,4 +239,3 @@ PARAMETERS
 
 parameters = MapParameter({
     "keywords" : ScalarParameter(str, label="keywords")})
-
